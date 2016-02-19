@@ -42,7 +42,7 @@ let invBool   = false
 let invArray  = []
 let invObject = 0
 
-
+//store an object
 func storeObject(name: String, value: AnyObject)
 {
     defaults.setValue(value, forKey: name)
